@@ -8,7 +8,8 @@
     "dev-server": "webpack-dev-server --open",
     "test": "jest",
     "serve": "live-server public/",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "heroku-postbuild":"npm run build"
   },
   "author": "",
   "license": "ISC",
